@@ -1,0 +1,75 @@
+body {
+font-family: arial, sans-serif;
+background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220512/pngtree-growing-chart-against-the-background-of-the-usa-america-flag-candlestick-image_1298783.jpg);
+background-repeat: no-repeat; 
+background-size: cover; 
+background-position: center; 
+margin: 0;
+padding: 0;
+display:flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    background-image: url(https://img.freepik.com/free-vector/digital-money-transfer-technology-background_1017-17454.jpg?ga=GA1.1.1577245899.1677138916&semt=ais_hybrid);
+    padding: 30px;
+    border: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+}
+
+select,input{
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background: #28a745;
+    color: #fff;
+    font-weight: bolder;
+    border:none ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+
+}
+button:hover{
+    background-color: #218838;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid #ffffff;
+    border-radius: 8px; 
+    background-color:white ;
+    
+    
+}
+
